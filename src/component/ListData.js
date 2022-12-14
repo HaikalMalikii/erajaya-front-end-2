@@ -1,8 +1,13 @@
-import React from "react";
+import React, { Fragment } from "react";
+
 
 const ListData = () => {
     return (
-        <h1>List Data</h1>
+        <Fragment>
+            <h1>List Data</h1>
+
+        </Fragment>
+
     );
 }
 

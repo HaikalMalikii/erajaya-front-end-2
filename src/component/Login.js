@@ -19,16 +19,19 @@ const Login = () => {
                             <img src="https://placeimg.com/640/480/nature" alt="" ></img>
                         </div>
                         <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
+                            <div class="mb-4">
+                                <h3 class="card-title">Selamat Datang di ERAJAYA</h3>
+                                <p class="mb-4">Silahkan Masuk menggunakan Akun anda</p>
+                            </div>
+
                             <form>
                                 <div class="form-outline mb-4">
-                                    Email address
                                     <input type="email" id="form3Example3" class="form-control form-control-lg"
                                         placeholder="Enter a valid email address" />
                                     <label class="form-label" for="form3Example3">Email address</label>
                                 </div>
 
                                 <div class="form-outline mb-3">
-                                    Password
                                     <input type="password" id="form3Example4" class="form-control form-control-lg"
                                         placeholder="Enter password" />
                                     <label class="form-label" for="form3Example4">Password</label>
