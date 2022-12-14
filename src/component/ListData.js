@@ -7,8 +7,9 @@ const ListData = () => {
             <div className="header">
                 <Navbar />
             </div>
-            <h1>List Data</h1>
-            <div className='main'>
+            <div className='main' style={{
+                paddingTop: '2.5rem',
+            }}>
                 <div className='container'>
                     <div className='row'>
                         <div className='col-md-12'>
