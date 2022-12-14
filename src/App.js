@@ -9,9 +9,6 @@ import Navbar from './component/Navbar';
 function App() {
   return (
     <div className="App">
-      <div className='Header'>
-        <Navbar />
-      </div>
       <div className='Body'>
         <Login email="Email default test@gmail.com" password="Pass Default 123abc" />
         <div className='content'>
