@@ -12,7 +12,7 @@ function App() {
       <div className='LoginPage'>
         <Login />
       </div>
-      {/* <div class='Table Karyawan'>
+      {/* <div class='TableKaryawan'>
         <ListData />
       </div> */}
 
