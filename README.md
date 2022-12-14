@@ -7,7 +7,7 @@ requirement test :
 5. Search berdasarkan nama karyawan dan job karyawan
 
 perkenalkan nama saya Muhamad Haikal Maliki, 
-di aplikasi yang telah saya buat terdapat Login Page dan List Data Karyawan jika ingin mengakses Login Page maka di file App.js harus di comment untuk className TableKaryawan begitu pun sebaliknya jika ingin mengakses List Data Karyawan Page maka di file App.js harus di comment untuk className LoginPage
+di aplikasi yang telah saya buat terdapat Login Page dan List Data Karyawan jika ingin mengakses Login Page maka di file App.js harus di comment untuk className TableKaryawan begitu pun sebaliknya jika ingin mengakses List Data Karyawan Page maka di file App.js harus di comment untuk className LoginPage.
 
 
 
