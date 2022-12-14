@@ -26,9 +26,19 @@ const ListData = () => {
                     </div>
                 </div>
             </div>
+            <div className="d-flex content-start" style={{
+                paddingLeft: '2.5rem',
+            }}>
+                <h7>Search Nama Karyawan atau Job Karyawan</h7>
+            </div>
+            <div className="d-flex content-start" style={{
+                paddingLeft: '2.5rem',
+            }}>
+                <input
+                    type="text" placeholder="search" className="search" onChange={e => setQuery(e.target.value)}
+                />
+            </div>
 
-            <input
-                type="text" placeholder="search" className="search" onChange={e => setQuery(e.target.value)} />
             <table className="table">
                 <thead>
                     <tr>
