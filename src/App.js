@@ -18,9 +18,17 @@ function App() {
           {
             data.map(datas => {
               return (
-                <div className='box' key={datas.id}>
-                  {datas.nama}
-                  {datas.job}
+
+                <div className='data' key={datas.id}>
+                  <table className='table'>
+                    <tbody>
+                      <tr>
+                        <th scope="row">{datas.id}</th>
+                        <td>{datas.nama}</td>
+                        <td>{datas.job}</td>
+                      </tr>
+                    </tbody>
+                  </table>
                 </div>
               )
             })
