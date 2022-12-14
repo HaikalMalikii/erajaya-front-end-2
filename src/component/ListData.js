@@ -21,45 +21,46 @@ const ListData = () => {
                                     <div class="right">
                                     </div>
                                 </div>
+
+                                <div className="d-flex content-start" style={{
+                                    paddingLeft: '2.5rem',
+                                }}>
+                                    <h7>Search Nama Karyawan atau Job Karyawan</h7>
+                                </div>
+                                <div className="d-flex content-start" style={{
+                                    paddingLeft: '2.5rem',
+                                }}>
+                                    <input
+                                        type="text" placeholder="search" className="search" onChange={e => setQuery(e.target.value)}
+                                    />
+                                </div>
+
+                                <table className="table">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">No</th>
+                                            <th scope="col">Nama Karyawan</th>
+                                            <th scope="col">Job Karyawan</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        {Data.filter((datas) => datas.nama.toLowerCase().includes(query) ||
+                                            datas.job.toLowerCase().includes(query))
+                                            .map((datas) => (
+                                                <tr key={datas.id}>
+                                                    <th scope="row">{datas.id}</th>
+                                                    <td>{datas.nama}</td>
+                                                    <td>{datas.job}</td>
+                                                </tr>
+                                            ))}
+                                    </tbody>
+                                </table>
+
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div className="d-flex content-start" style={{
-                paddingLeft: '2.5rem',
-            }}>
-                <h7>Search Nama Karyawan atau Job Karyawan</h7>
-            </div>
-            <div className="d-flex content-start" style={{
-                paddingLeft: '2.5rem',
-            }}>
-                <input
-                    type="text" placeholder="search" className="search" onChange={e => setQuery(e.target.value)}
-                />
-            </div>
-
-            <table className="table">
-                <thead>
-                    <tr>
-                        <th scope="col">No</th>
-                        <th scope="col">Nama Karyawan</th>
-                        <th scope="col">Job Karyawan</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    {Data.filter((datas) => datas.nama.toLowerCase().includes(query) ||
-                        datas.job.toLowerCase().includes(query))
-                        .map((datas) => (
-                            <tr key={datas.id}>
-                                <th scope="row">{datas.id}</th>
-                                <td>{datas.nama}</td>
-                                <td>{datas.job}</td>
-                            </tr>
-                        ))}
-                </tbody>
-            </table>
-
 
         </Fragment>
 
