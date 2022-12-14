@@ -1,6 +1,7 @@
 import React, { } from 'react';
 import './App.css';
 import ListData from './component/ListData';
+import Login from './component/Login'
 
 
 
@@ -8,12 +9,12 @@ function App() {
   return (
     <div class="App">
 
-      {/* <div className='LoginPage'>
-        <Login email="Email default test@gmail.com" password="Pass Default 123abc" />
-      </div> */}
-      <div class='Table Karyawan'>
-        <ListData />
+      <div className='LoginPage'>
+        <Login />
       </div>
+      {/* <div class='Table Karyawan'>
+        <ListData />
+      </div> */}
 
     </div>
   );
