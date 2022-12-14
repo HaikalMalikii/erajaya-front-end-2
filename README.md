@@ -1,3 +1,17 @@
+# Erajaya-Front-End
+requirement test :
+1. Buat aplikasi menggunakan React
+2. Membuat Login Page
+3. Membuat List Data karyawan
+4. getData menggunakan data dummy yang berisikan nama karyawan dan job karyawan
+5. Search berdasarkan nama karyawan dan job karyawan
+
+perkenalkan nama saya Muhamad Haikal Maliki, 
+di aplikasi yang telah saya buat terdapat Login Page dan List Data Karyawan jika ingin mengakses Login Page maka di file App.js harus di comment untuk className TableKaryawan begitu pun sebaliknya jika ingin mengakses List Data Karyawan Page maka di file App.js harus di comment untuk className LoginPage
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
